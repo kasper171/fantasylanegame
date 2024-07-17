@@ -1,0 +1,205 @@
+<!DOCTYPE html><html lang="pt"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <script src="js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/0522951092.js" crossorigin="anonymous"></script>
+
+    <title>FantasyLane Game - Play now!</title>
+
+  <meta name="description" content="Chat, flirt, have fun">
+
+  <meta name="author" content="FantasyLane">
+
+  <meta property="og:title" content="FantasyLane Game - Play now!">
+
+  <meta property="og:type" content="website">
+
+  <meta property="og:url" content="https://fantasylane/">
+
+  <meta property="og:description" content="Chat, flirt, have fun">
+
+  <!-- <meta property="og:image" content="image.png"> -->
+
+  <link rel="icon" href="images/favicon.png">
+
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-md-12 d-flex justify-content-between">
+                    <img src="images/logo.png" class="navlogo">
+
+                    <div class="nav_props">
+
+                        <button class="download_secondary lang scrollButton" key="hero_download" type="button" data-target="targetSection"></button>
+
+                        <div class="dropdown languageDropdown">
+                            <button class="btn dropdown-toggle dropButton" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                                <span class="selectedLanguage">Language</span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <li><a class="dropdown-item translate mania_cursor_pointer" id="en"><img src="images/bandeira_en.png" alt="English" class="me-2" style="width: 20px;">English</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+      </nav>
+
+    <div class="hero_primary">
+        <div class="dropdown languageDropdown dropLang">
+            <button class="btn dropdown-toggle dropButton" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="selectedLanguage">Language</span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item translate mania_cursor_pointer" id="en"><img src="images/bandeira_en.png" alt="English" class="me-2" style="width: 20px;">English</a></li>
+            </ul>
+        </div>
+            <img class="logo" src="images/logo.png" alt="MiniMania">
+            <button class="download_primary lang scrollButton" key="hero_download" type="button" data-target="targetSection"></button>
+            <!-- <p id="avatarCount"></p> -->
+    </div>
+
+    <div class="hero_featured">
+        <h1 class="blue_title lang" key="featured_title"></h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <video class="responsive_video" controls>
+                        <source src="/baixar/gamespoiler.mp4" type="video/mp4">
+                        Seu navegador não suporta o elemento de vídeo.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero_tips">
+        <h1 class="blue_title lang" key="tips_title"></h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-12 text-center">
+                    <p class="tip_description"><strong>Boredom is ancient history! Fantasy Lane 3D chat is full of activity. Thousands of members from around the world form an incredible community full of fun, action and adventure. Relaxing on the beach, enjoying party nights, unforgettable moments with other people - Fantasy Lane has it all. What are you waiting for? Sign up now for free and get ready for your own adventure!</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero_download" id="targetSection">
+        <div class="container">
+            <div class="row align-items-center justify-content-center gap-5">
+                <div class="col-md-6">
+                    <h1 class="orange_title lang" key="download_title"></h1>
+                    <p class="description lang" key="download_description"></p>
+                    <div class="mt-5">
+
+                        <h3 class="orange_title">macOS <span class="new_badge lang" key="badge_new"></span></h3>
+                        <a href="baixar/FantasyLaneSetup.zip"><button class="download_secondary"><i class="fa-brands fa-apple"></i> macOS</button></a>
+
+                        <h3 class="orange_title mt-5">Windows</h3>
+                        <a href="baixar/FantasyLaneSetup.zip"><button class="download_secondary"><i class="fa-brands fa-windows"></i> Windows 32-bits</button></a>
+                        <a href="baixar/FantasyLaneSetup.zip"><button class="download_secondary"><i class="fa-brands fa-windows"></i> Windows 64-bits</button></a>
+            
+                        <h3 class="orange_title mt-5">Linux <span class="new_badge lang" key="badge_new"></span></h3>
+                        <a href="/baixar/FantasyLaneSetup.zip"><button class="download_secondary"><i class="fa-brands fa-linux"></i> Linux 32-bits</button></a>
+                        <a href="/baixar/FantasyLaneSetup.zip"><button class="download_secondary"><i class="fa-brands fa-linux"></i> Linux 64-bits</button></a>
+                    </div>
+                </div>
+                <div class="col-md-5 text-center download_image">
+                    <img id="reg_bonus_1" class="reg_bonus_image" src="images/RBR1.png">
+                </div>
+            </div>
+
+            <!-- <div class="row justify-content-center mania_mt_normal">
+                <div class="col-md-8">
+                    <div class="ads_box">
+                        <div class="ads_box_title">
+                            <h5 class="ads_title lang" key="ads"></h4>
+                        </div>
+                        <div class="ads_box_content">
+                        <h5 class="ads_title lang" key="ads"></h4>
+                            <h5 class="ads_title lang" key="ads"></h4>
+                                <h5 class="ads_title lang" key="ads"></h4>
+                                    <h5 class="ads_title lang" key="ads"></h4>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+    </div>
+
+    <footer class="footer_mania">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <img src="images/logo.png" class="footerLogo">
+            </div>
+            <div class="col-md-3">
+                <h6>LEGAL</h6>
+                <div class="linefooter"></div>
+                <ul class="footer_links">
+                    <li>
+                        <a href="" target="_blank" class="halfhover lang" key="privacy_policy"></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" class="halfhover lang" key="terms_of_service"></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" class="halfhover lang" key="code_of_conduct"></a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank" class="halfhover lang" key="parents_guide"></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-12 rights">
+                <p class="lang" key="rights"></p>
+                <p class="lang" key="trademark"></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+    <!-- <p class="lang" key="welcome_message"></p> -->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.addEventListener('scroll', function() {
+          var currentScrollPos = window.pageYOffset;
+        
+          // Mostra o menu ao rolar para baixo
+          if (currentScrollPos > prevScrollpos) {
+            document.querySelector('.navbar').classList.add('ativo');
+          } else if (currentScrollPos <= 300) {
+            // Esconde o menu ao chegar no topo
+            document.querySelector('.navbar').classList.remove('ativo');
+          }
+        
+          prevScrollpos = currentScrollPos;
+        });
+        
+        document.querySelector('.navbar').classList.remove('ativo');
+            </script>
+
+            <script>
+                document.querySelectorAll(".scrollButton").forEach(function(button) {
+                button.addEventListener("click", function() {
+                    var targetSectionId = this.getAttribute("data-target");
+                    var targetSection = document.getElementById(targetSectionId);
+                    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                });
+            });
+            </script>
+    <script src="js/lang.js"></script>
+    <script src="js/avatarCount.js"></script>
+
+
+</body></html>
